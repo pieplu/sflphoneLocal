@@ -8,7 +8,7 @@ Allez dans le répertoire désiré (un de vos localhost)
 Cela créera un dossier 'drupal'
 
 
-----------
+
 
 
 ####OPTIONEL
@@ -17,7 +17,7 @@ Changez le propriétaire des fichiers
 > sudo chown -R **user**:**user** drupal/  (ou **user** est votre username ou www-data)
 
 
-----------
+
 
 
 
@@ -25,7 +25,7 @@ Changez le propriétaire des fichiers
 
 
 ##Bd
-> mysql -u ***root*** -p -e "create database ' sflphone_website ' "
+> mysql -u ***root*** -p -e "create database 'sflphone_website '"
 
 (où **root** est votre user de bd)
  
@@ -46,13 +46,13 @@ mettez à jour **$db_url** (avec votre user et pass local mysql)
 
 >$db_url = 'mysqli://**user**:**pass**@localhost/sflphone_website';
 
-    drush status
+>drush status
 
 Normalement, il apparait ceçi:
  >Database:  Connected
 
 
-----------
+
 
 
 Allez sur votre localhost, le site fonctionne!
