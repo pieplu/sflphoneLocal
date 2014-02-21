@@ -82,11 +82,10 @@ Connectez vous avec les logins fourni par sflvault (1056)
 
 Dans site building / blocks / add block
 
-Entrer la description (exemple: news-feed twitter de sfl)
-Le titre (exemple: twitter)
+Entrer la description (exemple: news-feed twitter de sfl), le titre (exemple: twitter)
+
 Dans block body:
-clic sur "**disable rich text**"
-Puis Input Format / **Full HTML**
+clic sur "**disable rich text**", puis Input Format / **Full HTML**
 
 Collez le code twitter
 
@@ -102,9 +101,8 @@ Clic "save block"
 
 Chercher votre bloc en bas de la page, 
 glissez-déposer le plus haut dans first sidebar
-OU utiliser le dropdown
+**OU** utiliser le dropdown
  
-Supprimer l'ancien (placez-le à "none")
-Allez tout en bas, et faites "save blocks"
+Supprimer l'ancien (placez-le à "none"), allez tout en bas, et faites "save blocks".
 
 Le nouveau twitter feed est en place
