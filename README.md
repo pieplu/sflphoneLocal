@@ -93,7 +93,7 @@ Choisir :
 >Show on only the listed pages.
 
 Collez dans **Pages** (pour la page news et tout ses sous-noeuds:
->news/
+>news/all
 news/*
 
 Clic "save block"
