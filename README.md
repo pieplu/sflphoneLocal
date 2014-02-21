@@ -60,3 +60,51 @@ Allez sur votre localhost, le site fonctionne!
 Identifiants sflvault: s#1056 et s#1627 (twitter)
 
 
+
+##Remplacer le bloc twitter
+https://twitter.com/settings/widgets/new/search
+Connectez-vous à n'importe quel compte.
+Entrer l'usertag:
+>@sflphone
+
+Cochez:
+>N'afficher que les Top Tweets
+
+Coller la couleur de liens sflphone:
+    
+> "#ffa306"
+
+Générez le code
+
+
+dans votre navigateur, ajouter 'user' à votre url
+Connectez vous avec les logins fourni par sflvault (1056)
+
+Dans site building / blocks / add block
+
+Entrer la description (exemple: news-feed twitter de sfl)
+Le titre (exemple: twitter)
+Dans block body:
+clic sur "**disable rich text**"
+Puis Input Format / **Full HTML**
+
+Collez le code twitter
+
+Choisir :
+>Show on only the listed pages.
+
+Collez dans **Pages** (pour la page news et tout ses sous-noeuds:
+>news/
+news/*
+
+Clic "save block"
+
+
+Chercher votre bloc en bas de la page, 
+glissez-déposer le plus haut dans first sidebar
+OU utiliser le dropdown
+ 
+Supprimer l'ancien (placez-le à "none")
+Allez tout en bas, et faites "save blocks"
+
+Le nouveau twitter feed est en place
