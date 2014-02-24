@@ -25,7 +25,7 @@ Changez le propriétaire des fichiers
 
 
 ##Bd
-> mysql -u ***root*** -p -e "create database 'sflphone_website '"
+> mysql -u ***root*** -p -e "create database sflphone_website;"
 
 (où **root** est votre user de bd)
  
